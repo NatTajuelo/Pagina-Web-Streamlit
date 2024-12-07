@@ -8,8 +8,8 @@ from gtts import gTTS
 model = load(open("./models/boosting_n_est-70_learn_rat-0_max_dep-44_gam-81_min_child-90_colsample-0_42.sav", "rb"))
 
 Outcome = {
-    "0": "Negativo",
-    "1": "Positivo",
+    "0": "Positivo",
+    "1": "Negativo",
 }
 
 # CSS personalizado para accesibilidad
