@@ -4,7 +4,7 @@ import numpy as np
 from gtts import gTTS
 
 # Cargar el modelo
-model = load(open("./src/boosting_n_est-70_learn_rat-0_max_dep-44_gam-81_min_child-90_colsample-0_42.sav", "rb"))
+model = load(open("./models/boosting_n_est-70_learn_rat-0_max_dep-44_gam-81_min_child-90_colsample-0_42.sav", "rb"))
 
 # Definir opciones de idioma
 languages = {"Español": "es", "Inglés": "en"}
