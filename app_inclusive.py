@@ -8,7 +8,7 @@ model = load(open("./models/boosting_n_est-70_learn_rat-0_max_dep-44_gam-81_min_
 
 # Definir opciones de idioma
 languages = {"Español": "es", "Inglés": "en"}
-outcome = {"0": "Positivo", "1": "Negativo"}
+outcome = {"0": "Negativo", "1": "Positivo"}
 
 # Configuración en una barra lateral
 with st.sidebar:
